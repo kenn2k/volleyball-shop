@@ -1,0 +1,47 @@
+.cardContainer {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid #3b6154;
+}
+
+.cardContainer h3 {
+  font-size: 16px;
+}
+
+.titleCost {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+}
+
+.details {
+}
+
+.quantity {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.3rem;
+}
+
+.actions button {
+  padding: 0.5rem 1rem;
+  color: white;
+
+  background-color: #3b6154;
+  border: #3b6154;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #30463e;
+}

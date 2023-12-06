@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@400;800&family=MuseoModerno:ital,wght@0,400;0,800;1,700&family=Roboto:wght@100;400&family=Sawarabi+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none; /* Убирает маркеры списка */
+  line-height: 1.5; /* Задает высоту строки для лучшего визуального восприятия */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: #8cc2d9;
+  color: #3b6154;
+  font-family: "MuseoModerno", sans-serif;
+}

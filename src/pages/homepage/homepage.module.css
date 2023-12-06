@@ -1,0 +1,99 @@
+.productRef {
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  height: 30rem;
+}
+.img img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  transition: 0.15s all;
+}
+
+.img img:hover {
+  transform: scale(1.05);
+  filter: blur(5px);
+}
+
+.photo::before {
+  content: "Equipment"; /* Текст, который вы хотите добавить */
+  overflow: hidden;
+  object-fit: cover;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #c0d9e4;
+
+  font-size: 2rem;
+  font-weight: bold;
+
+  text-shadow: 2px 2px 4px gray;
+  z-index: 3;
+}
+.photo2::before {
+  content: "Balls"; /* Текст, который вы хотите добавить */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #c0d9e4;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px gray;
+
+  z-index: 3;
+}
+.photo3::before {
+  content: "Sneakers"; /* Текст, который вы хотите добавить */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #c0d9e4;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px gray;
+  z-index: 3;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    padding: 0 10%;
+  }
+  .img {
+    height: 25rem;
+  }
+  .productRef {
+    display: inline;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    padding: 0 10%;
+  }
+
+  .img {
+    height: 20rem;
+  }
+
+  .productRef {
+    height: 100%;
+    display: inline;
+  }
+}

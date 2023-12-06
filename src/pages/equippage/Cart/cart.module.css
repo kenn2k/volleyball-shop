@@ -1,0 +1,64 @@
+.main {
+  height: 400px;
+  width: 600px;
+  overflow: auto;
+  max-height: 400px;
+}
+
+.ttt h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.actions {
+  font-weight: bold;
+  display: flex;
+  padding: 0.7rem 1rem;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.actions button:disabled {
+  background-color: grey;
+  color: rgb(255, 0, 0);
+  border: 1px solid red;
+}
+.actions button:disabled {
+  cursor: not-allowed;
+}
+
+.actions p {
+  color: green;
+}
+
+.actions button {
+  padding: 0.5rem 1rem;
+  background-color: #3b6154;
+  border-radius: 8px;
+  border: 1px solid #73a191;
+  color: white;
+  cursor: pointer;
+}
+
+.actions button:nth-child(1) {
+  background-color: inherit;
+  color: #3b6154;
+}
+
+.actions button:hover {
+  background-color: #30463e;
+}
+
+.actions button:hover:nth-child(1) {
+  background-color: #30463e;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .main {
+    height: 200px;
+    width: 300px;
+    overflow: auto;
+    max-height: 300px;
+  }
+}

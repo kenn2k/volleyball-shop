@@ -1,0 +1,43 @@
+.products {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .products {
+    display: block;
+    height: 100%;
+  }
+  .wrapper {
+    padding: 0 10%;
+  }
+  .img {
+    height: 25rem;
+  }
+  .productRef {
+    display: inline;
+  }
+}
+
+@media (max-width: 800px) {
+  .products {
+    display: inline;
+    height: 100%;
+  }
+  .wrapper {
+    padding: 0 10%;
+  }
+
+  .img {
+    height: 20rem;
+  }
+
+  .productRef {
+    display: inline;
+  }
+}
