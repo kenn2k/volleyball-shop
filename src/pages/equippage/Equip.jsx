@@ -18,7 +18,7 @@ const volleyballGear = [
   {
     id: "3",
     image:
-      "https://m.media-amazon.com/images/I/81-Hl2amv6L._AC_UF1000,1000_QL80_.jpg",
+      "https://www.merchantoftennis.com/cdn/shop/products/s8003.jpg?v=1461541116",
     price: 89.99,
     title: "Wilson Volleyball Net",
   },

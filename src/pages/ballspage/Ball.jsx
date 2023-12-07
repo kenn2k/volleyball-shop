@@ -8,31 +8,30 @@ import { useSelector } from "react-redux";
 const BALLS = [
   {
     id: "1",
-    title: "Mikasa MVA200",
+    title: "Mikasa MVA200 Ball",
     price: 50.99,
     image:
-      "https://vsv-sport.com/wp-content/uploads/2021/06/mikasa-mva-200-volleyball-ball.jpg",
+      "https://gaponez.com/wa-data/public/shop/products/46/36/13646/images/32054/32054.750.jpg",
   },
   {
     id: "2",
     title: "Molten FIVB V5M5000",
     price: 45.75,
     image:
-      "https://onlyballs.com.ua/image/cache/catalog/data/Molten/voleyball/item-thumbnail-821-1-1000x1000-800x800.jpg",
+      "https://onlyballs.com.ua/image/cache/catalog/data/Molten/voleyball/50650_z1-1000x1000-170x170.jpg",
   },
   {
     id: "3",
     title: "Wilson AVP Official Beach",
     price: 39.99,
-    image:
-      "https://raketka.ua/image/cache/catalog/2023/06/04/Wilson%20OPTX%20AVP%20Official%20GB%20Size%205%20SS20%20WTH00020XB%202-900x900.jpg",
+    image: "https://images.prom.ua/1889608256_w600_h600_1889608256.jpg",
   },
   {
     id: "4",
     title: "Tachikara SV5W Gold Competition",
     price: 34.5,
     image:
-      "https://gophersport.com/media/catalog/product/cache/6ea1bff88931c9308bfe8bc576b10d8e/g/-/g-61715-white-official-leather-volleyball-plp.jpg",
+      "https://gophersport.com/media/catalog/product/cache/a90ad56288e9ba5df1807756c52e1825/g/-/g-61715-white-official-leather-volleyball-plp.jpg",
   },
 
   {
@@ -77,13 +76,13 @@ const BALLS = [
   },
   {
     id: "13",
-    title: "Wilson AVP Quicksand",
+    title: "Wilson Quicksand",
     price: 37.5,
     image: "https://m.media-amazon.com/images/I/61BhO9P7ZoL.jpg",
   },
   {
     id: "14",
-    title: "Tachikara SV5WSC",
+    title: "Tachikara SV5W",
     price: 45.25,
     image:
       "https://m.media-amazon.com/images/I/61sKP1rdxvL._AC_UF1000,1000_QL80_.jpg",
@@ -91,7 +90,7 @@ const BALLS = [
 
   {
     id: "16",
-    title: "Mikasa V330W",
+    title: "Mikasa V330W Ball",
     price: 49.99,
     image: "https://superliga.com.ua/imgs/bg41709.jpg",
   },
