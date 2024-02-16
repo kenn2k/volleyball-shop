@@ -15,7 +15,7 @@ function HomePage() {
               <div className={styles.img}>
                 <div className={styles.photo}>
                   <img
-                    src="https://images.prom.ua/3524920988_w640_h640_rekomendovane-sporyadzhennya-dlya.jpg"
+                    src="https://cdn.leonardo.ai/users/9c3e42fb-d0b2-484e-ac4c-86cb3d95b25e/generations/14502f43-7dd0-425e-8264-6ca080bea505/Default_generate_girl_who_wears_sport_volleyball_equipment_kne_0.jpg"
                     alt=""
                   />
                 </div>
@@ -39,7 +39,7 @@ function HomePage() {
               <div className={styles.img}>
                 <div className={styles.photo3}>
                   <img
-                    src="https://www.ballgames.ru/img/volleyball-sneakers-h3.jpg"
+                    src="https://cdn.leonardo.ai/users/9c3e42fb-d0b2-484e-ac4c-86cb3d95b25e/generations/848ac9b4-fea6-4f51-86eb-e9d1939ac019/Default_Many_sports_sneakers_for_volleyball_0.jpg"
                     alt=""
                   />
                 </div>
